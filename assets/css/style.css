@@ -76,18 +76,13 @@ body {
 }
 
 .intro h1 {
-  margin-bottom: 0.3em;
+  margin-bottom: 0.4em;
   font-family: 'Consolas', monospace;
 }
 
 .intro h2 {
   font-size: 1.3em;
   color: #25b747;
-}
-
-.intro ul {
-  list-style-type: none;
-  color: #a19a9a;
 }
 
 .description {
@@ -118,6 +113,12 @@ body {
   text-align: center;
 }
 
+.project a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 .socials {
   font-family: 'Space Mono', monospace;
   font-size: 1em;
@@ -144,4 +145,23 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
+}
+
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #a19a9a #111111;
+}
+
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #111111;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #a19a9a;
+  border-radius: 10px;
+  border: 3px dashed #111111;
 }

@@ -23,7 +23,7 @@ body {
 
 .topnav a {
   float: none;
-  display: inline-block;
+  display: inline-flex;
   color: #a19a9a;
   text-align: center;
   padding: 14px 16px;
@@ -43,13 +43,20 @@ body {
   color: #ffffff;
 }
 
+.topnav .icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.topnav a.active .icon {
+  background: url('/assets/images/home.svg') no-repeat;
+}
+
 .topnav a:hover {
   background-position: 100% 100%;
   background-size: 100% 2px;
-}
-
-.topnav .icon {
-  display: none;
 }
 
 .intro {

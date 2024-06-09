@@ -88,12 +88,22 @@ body {
 }
 
 .projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 5%;
+  padding-left: 18%;
   font-family: 'Space Mono', monospace;
-  font-size: 1em;
   color: #ffffff;
-  text-align: left;
-  margin-top: 5%;
-  padding-left: 5%;
+}
+
+.project {
+  background-color: #242424;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
 }
 
 .socials {
@@ -103,6 +113,7 @@ body {
   text-align: left;
   margin-top: 5%;
   padding-left: 5%;
+  margin-bottom: 5%;
 }
 
 .socials a {
@@ -117,9 +128,8 @@ footer {
   color: #a19a9a;
   text-align: center;
   margin-top: 5%;
-  padding-bottom: 5%;
+  padding-bottom: 1%;
   left: 0;
   bottom: 0;
-  position: fixed;
   width: 100%;
 }

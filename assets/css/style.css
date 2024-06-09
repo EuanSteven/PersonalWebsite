@@ -1,7 +1,7 @@
 /* Design by Euan Steven */
 
 * {
-  cursor: url('../images/cursor.svg'), type="utf-8", auto;
+  cursor: url('/assets/images/cursor.svg'), auto;
 }
 
 body {

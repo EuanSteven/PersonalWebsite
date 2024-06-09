@@ -76,13 +76,18 @@ body {
 }
 
 .intro h1 {
-  margin-bottom: 0.2em;
+  margin-bottom: 0.3em;
   font-family: 'Consolas', monospace;
 }
 
 .intro h2 {
   font-size: 1.3em;
   color: #25b747;
+}
+
+.intro ul {
+  list-style-type: none;
+  color: #a19a9a;
 }
 
 .description {

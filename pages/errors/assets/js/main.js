@@ -1,2 +1,0 @@
-// Design by Euan Steven
-

@@ -126,6 +126,188 @@ body {
   transform: scale(1.05);
 }
 
+.prods {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: 'Space Mono', monospace;
+  color: #ffffff;
+}
+
+.prod {
+  background-color: #242424;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.4s;
+  text-align: center;
+}
+
+.prod img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+  display: block;
+}
+
+.prod h3, .prod p {
+  margin: 10px 0;
+  padding: 0 10px;
+}
+
+.prod h3 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.prod a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.prod p {
+  margin-bottom: 15px;
+}
+
+.prod:hover {
+  transform: scale(1.05);
+}
+
+.details {
+  font-family: 'Space Mono', monospace;
+  font-size: 1em;
+  color: #a19a9a;
+  text-align: left;
+  margin-top: 5%;
+  padding-left: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.text-details {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.details ul {
+  flex: none;
+  margin-bottom: 10px;
+}
+
+.details img {
+  width: 30%;
+  border-radius: 8px;
+  display: block;
+  margin-left: 5%;
+  margin-right: 10%;
+  margin-top: 2%;
+}
+
+@media (max-width: 768px) {
+  .details {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .details img {
+    width: 50%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 5%;
+  }
+
+  .text-details {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .details img {
+    width: 100%;
+    margin-top: 10%;
+  }
+}
+
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 5%;
+  margin-top: 1%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: 'Space Mono', monospace;
+  color: #ffffff;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.files {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: 'Space Mono', monospace;
+  color: #ffffff;
+}
+
+.file {
+  background-color: #242424;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.4s;
+  text-align: center;
+}
+
+.file img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+  display: block;
+}
+
+.file h3, .file p {
+  margin: 10px 0;
+  padding: 0 10px;
+}
+
+.file h3 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.file a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.file p {
+  margin-bottom: 15px;
+}
+
+.file:hover {
+  transform: scale(1.05);
+}
+
 .error {
   font-family: 'Space Mono', monospace;
   font-size: 1em;

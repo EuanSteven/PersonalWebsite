@@ -100,7 +100,7 @@ body {
 }
 
 .intro img {
-  width: 25%;
+  width: 23%;
   border-radius: 8px;
   display: block;
   margin-top: 2%;
@@ -257,6 +257,54 @@ body {
   }
 }
 
+.contact-form {
+  font-family: 'Space Mono', monospace;
+  color: #a19a9a;
+  padding: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 2%;
+}
+
+.contact-form h2 {
+  color: #25b747;
+  margin-bottom: 1em;
+}
+
+.form-group {
+  margin-bottom: 1em;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.5em;
+  border: none;
+  border-radius: 4px;
+  background-color: #242424;
+  color: #ffffff;
+  font-family: 'Space Mono', monospace;
+}
+
+button[type="submit"] {
+  background-color: #25b747;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  font-family: 'Space Mono', monospace;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #1e9037;
+}
 
 .gallery {
   display: grid;

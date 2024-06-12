@@ -4,6 +4,10 @@
   cursor: url('/assets/images/cursor.svg'), auto;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #111111;
   background-image: radial-gradient(#242424 10%, transparent 11%),
@@ -436,5 +440,5 @@ footer {
 *::-webkit-scrollbar-thumb {
   background-color: #a19a9a;
   border-radius: 10px;
-  border: 3px dashed #111111;
+  border: 3px #111111;
 }

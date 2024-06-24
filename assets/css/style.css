@@ -575,4 +575,7 @@ label::before {
   border: 1px solid #ffffff;
 }
 
-.pagination a:hover:not(.active) {background-color: #ddd;}
+.pagination a:hover:not(.active) {
+  color: white;
+  border: 1px solid #ffffff;
+}

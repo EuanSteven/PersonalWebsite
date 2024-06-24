@@ -578,4 +578,5 @@ label::before {
 .pagination a:hover:not(.active) {
   color: white;
   border: 1px solid #ffffff;
+  transition: border .3s;
 }

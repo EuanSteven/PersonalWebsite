@@ -580,3 +580,104 @@ label::before {
   border: 1px solid #ffffff;
   transition: border .3s;
 }
+
+
+.recipe-list {
+  background-color: #242424;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 5%;
+  width: calc(90% - 40px);
+}
+
+.recipe {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #333;
+}
+
+.recipe:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.recipe-image {
+  width: 15%;
+  height: 15%;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.recipe-details {
+  flex-grow: 1;
+}
+
+.recipe-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.category {
+  font-family: 'Space Mono', monospace;
+  color: #a19a9a;
+  font-size: 0.9em;
+}
+
+.dietary-info {
+  font-family: 'Space Mono', monospace;
+  margin-left: 10px;
+  color: #a19a9a;
+}
+
+.recipe-title {
+  font-family: 'Space Mono', monospace;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px 0;
+  margin-bottom: 3px;
+}
+
+.recipe-meta {
+  display: flex;
+  align-items: center;
+}
+
+.cooking-time, .serving-size {
+  font-family: 'Space Mono', monospace;
+  display: flex;
+  align-items: center;
+  color: #a19a9a;
+  font-size: 0.9em;
+  margin-right: 20px;
+  padding-top: 5px;
+}
+
+.cooking-time svg, .serving-size svg {
+  margin-right: 5px;
+}
+
+
+@media (max-width: 600px) {
+  .recipe {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .recipe-image {
+    margin-bottom: 10px;
+  }
+
+  .recipe-meta {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cooking-time, .serving-size {
+    margin-bottom: 5px;
+  }
+}

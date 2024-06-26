@@ -581,7 +581,6 @@ label::before {
   transition: border .3s;
 }
 
-
 .recipe-list {
   background-color: #242424;
   border-radius: 8px;

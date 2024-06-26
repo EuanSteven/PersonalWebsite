@@ -751,16 +751,21 @@ label::before {
   text-align: left;
   margin-top: 5%;
   padding-left: 5%;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .option {
   font-family: 'Space Mono', monospace;
-  font-size: 1em;
+  font-size: 1.2em;
   color: #a19a9a;
   text-align: left;
-  margin-top: 1%;
+  margin-top: 5%;
+  margin-bottom: 1%;
   padding-left: 5%;
   align-items: vertical;
   display: inline-block;
+}
+
+.icon-button svg {
+  vertical-align: -30%;
 }

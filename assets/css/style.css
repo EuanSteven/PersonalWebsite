@@ -628,6 +628,12 @@ label::before {
   font-size: 0.9em;
 }
 
+.pipe {
+  font-family: 'Space Mono', monospace;
+  margin-left: 10px;
+  color: #a19a9a;
+}
+
 .dietary-info {
   font-family: 'Space Mono', monospace;
   margin-left: 10px;

@@ -494,7 +494,6 @@ footer {
   width: 100%;
   position: relative;
   display: flex;
-  margin-top: 0.5em;
   flex-grow: 1;
 }
 
@@ -511,14 +510,14 @@ footer {
   box-sizing: border-box;
 }
 
-label {
+searchlabel {
   position: relative;
   display: flex;
   align-items: center;
   width: 100%;
 }
 
-label::before {
+searchlabel::before {
   content: "";
   position: absolute;
   padding-left: 15px;
@@ -767,4 +766,119 @@ label::before {
 
 .icon-button svg {
   vertical-align: -30%;
+}
+
+.filteroption {
+  font-family: 'Space Mono', monospace;
+  font-size: 1.29em;
+  color: #a19a9a;
+  text-align: left;
+  margin-top: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-bottom: 2%;
+  padding-left: 10%;
+  align-items: vertical;
+  display: inline-block;
+  background-color: #242424;
+  font-weight: bold;
+  border-radius: 50px;
+  padding-right: 20px;
+  border: 50px #242424;
+}
+
+.categoryoptions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 0.5em;
+    font-family: 'Space Mono', monospace;
+    color: #a19a9a;
+  }
+
+.categoryoptions input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #a19a9a;
+  border-radius: 4px;
+  background-color: #242424;
+  outline: none;
+  cursor: pointer;
+}
+
+.categoryoptions input[type="checkbox"]:checked {
+  background-color: #a19a9a;
+  border-color: #242424;
+}
+
+.categoryoptions input[type="checkbox"]:hover {
+  border-color: #a19a9a;
+}
+
+.categoryoptions label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.categoryoptions label span {
+  margin-left: 5px;
+}
+
+.filtersearch {
+  font-family: 'Space Mono', monospace;
+  font-size: 1em;
+  color: #ffffff;
+  text-align: left;
+  width: 90%;
+  position: relative;
+  display: flex;
+  margin-top: 0.5em;
+  flex-grow: 1;
+  margin-left: 5%;
+  border: 50px #242424;
+}
+
+.filtersearchTerm {
+  width: 100%;
+  padding: 10px 10px 10px 50px;
+  height: 35px;
+  border: 50px #242424;
+  outline: none;
+  font-size: 1.3em;
+  color: #a19a9a;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+filtersearchlabel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+filtersearchlabel::before {
+  content: "";
+  position: absolute;
+  padding-left: 5px;
+  left: 15px;
+  width: 20px;
+  height: 20px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24' viewBox='0 -960 960 960' width='24' fill='%23a19a9a'%3E%3Cpath d='M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z'/%3E%3C/svg%3E") center / contain no-repeat;
+}
+
+.recipelink {
+  font-family: 'Space Mono', monospace;
+  font-weight: bold;
+  color: inherit;
+  margin: 0 0 10px 0;
+  margin-bottom: 3px;
+  text-decoration: none;
 }

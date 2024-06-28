@@ -459,19 +459,22 @@ footer {
   background-color: #242424;
   color: #a19a9a;
   border: none;
-  border-radius: 4px;
-  padding: 0.5em 1em;
-  margin-right: 1em;
-  margin-bottom: 1em;
+  border-radius: 8px;
+  padding: 0.8em 1.2em;
+  margin-right: 1.2em;
+  margin-bottom: 1.2em;
   cursor: pointer;
   font-family: 'Space Mono', monospace;
+  font-size: 1.2em;
   transition: background-color 0.3s ease;
   display: flex;
   align-items: center;
 }
 
 .add button svg {
-  margin-right: 0.5em;
+  margin-right: 0.6em;
+  width: 20px;
+  height: 20px;
 }
 
 .search-container {
@@ -796,7 +799,7 @@ searchlabel::before {
     margin-top: 0.5em;
     font-family: 'Space Mono', monospace;
     color: #a19a9a;
-  }
+}
 
 .categoryoptions input[type="checkbox"] {
   appearance: none;

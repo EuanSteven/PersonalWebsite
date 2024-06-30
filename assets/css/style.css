@@ -1061,3 +1061,38 @@ filtersearchlabel::before {
 .left-info {
   flex: 1;
 }
+
+.back-button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+  cursor: pointer;
+  padding-bottom: 1%;
+  
+}
+
+.back-button svg {
+  margin-right: 5px;
+}
+
+.back-button span {
+  color: #A19a9a;
+  font-family: 'Space Mono', monospace;
+  font-size: 16px;
+  padding-right: 4%;
+}
+
+.back-button:hover svg,
+.back-button:hover span {
+  color: #ffffff;
+  fill: #ffffff;
+}
+
+.back-button a {
+  color: #A19a9a;
+  font-family: 'Space Mono', monospace;
+  font-size: 16px;
+  padding-right: 4%;
+  text-decoration: none;
+}

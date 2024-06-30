@@ -1084,6 +1084,7 @@ filtersearchlabel::before {
 }
 
 .back-button:hover svg,
+.back-button:hover a,
 .back-button:hover span {
   color: #ffffff;
   fill: #ffffff;

@@ -1096,3 +1096,10 @@ filtersearchlabel::before {
   padding-right: 4%;
   text-decoration: none;
 }
+
+.prodlarge {
+  margin: 10px 0;
+  padding-bottom: 11px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}

@@ -1103,3 +1103,8 @@ filtersearchlabel::before {
   margin-top: 15px;
   margin-bottom: 5px;
 }
+
+.recipe_buttons {
+  text-decoration: none;
+  color: #A19a9a;
+}
